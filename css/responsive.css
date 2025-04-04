@@ -1,0 +1,545 @@
+@media (max-width: 1300px) {}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+  .hero_area {
+    min-height: auto;
+  }
+
+  .hero_area .hero_bg_box {
+    display: flex;
+  }
+
+  .custom_nav-container .navbar-nav {
+    padding-top:0px;
+    align-items: center;
+  }
+
+  .custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: 0px 0px;
+    margin: 2px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .about_section .img-box {
+      margin-bottom: 45px;
+      margin-left: 0px;
+      margin-right: 10px;
+  }
+  
+}
+.about_section {
+  background-color: #ffffff;
+  color: #0c0b0b;
+  position: relative;
+  width: 100%;
+ 
+  padding: 5px; /* Add some padding for better spacing */
+  text-align: justify;
+  align-items: center;
+  
+ align-content: center;
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+
+.about_section .heading_container {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.about_section .detail-box h3 {
+  position: relative;
+  width: 100%;
+  margin-left: 0px; /* Reduce margin for small screens */
+  margin-right: 0px;
+  padding: 5px; /* Add some padding for better spacing */
+}
+
+
+.about_section .kuwait {
+  color: green !important;
+}
+
+.about_section .forex {
+  color: rgb(99, 98, 98) !important;
+}
+
+.about_section .traders {
+  color: rgba(231, 9, 9, 0.696)!important;
+}
+
+.about_section .detail-box p {
+  margin-top: 15px;
+  
+  position: relative;
+  width: 100%;
+ 
+  padding: 0 20px;
+  align-items: center;
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.about_section .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: justify;
+  font-style: normal;
+  position: relative;
+  width: 100%;
+  padding: 0 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* Responsive Design for Mobile */
+@media screen and (max-width: 480px) {
+  .about_section {
+    width: 95%; /* Keeps slight spacing on the sides */
+    padding: 10px; /* Adjusted padding */
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .about_section .detail-box p {
+    padding: 10px 10px; /* Ensures proper text spacing */
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .about_section .box {
+    padding: 10px 10px; /* Adds space for better readability */
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+  .about_section .heading_container {
+    margin-bottom: 15px;
+  }
+
+  
+
+
+  .about_section .detail-box h3 {
+    font-size: 22px;  
+  }
+
+  .about_section .kuwait,
+  .about_section .forex,
+  .about_section .traders {
+    font-size: 22px;  /* Adjust font size for better readability */
+  }
+
+  /* Adjust layout to be more vertical */
+  .about_section .box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+
+@media screen and (max-width: 480px) 
+ {
+  .about_section{
+    flex-direction: column;
+    text-align: justify; 
+    align-content: center;
+    
+  
+    
+    padding: 2px; /* Adds spacing inside the section */
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        box-sizing: border-box;
+        margin-left: 10px;
+        margin-right: 10px;
+ 
+}
+   
+
+  .about_section .heading_container {
+    margin-bottom: 10px;
+  }
+
+  .about_section .box {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .about_section .detail-box h3 {
+    font-size: 22px;  /* Further reduce font size */
+    padding: 0 20px;
+  }
+  }
+
+  .about_section .kuwait,
+  .about_section .forex,
+  .about_section .traders {
+    font-size: 22px;  /* Adjust font size for small screens */
+  }
+
+
+
+@media (max-width: 576px) {
+  .header_section .header_top .contact_nav a span {
+    display: flex;
+  }
+
+  .client_section .client_container {
+    width: 100%;
+  }
+
+  .client_section .box {
+    margin: 0;
+  }
+
+  .owl-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+  }
+
+  .client_section .owl-carousel .owl-nav .owl-prev,
+  .client_section .owl-carousel .owl-nav .owl-next {
+    position: unset;
+    margin: 0 2.5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider_section .detail-box h1 {
+    font-size: 45px;
+    margin-top: 10px;}
+    
+  
+   
+    
+  }
+  /* Mobile Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .slider_section .detail-box {
+    position: relative;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    margin-top: 50px;/* Adjust this value to  ove it higher*/
+  }
+
+  .slider_section .detail-box h1 {
+      font-size: 20px;
+      font-weight: bolder;
+      margin-bottom: 5px;/* adjust heading position*/
+
+     
+   
+  }
+
+  .slider_section .detail-box p {
+      font-size: 5px;
+      margin-bottom: 5px;}
+.slider_section.detail-box.btn-box{
+  position: absolute;
+  bottom: 20px;/* moves the button to the bottom*/
+  left:50%;
+  transform: translatex(-50%);
+  width: auto;}
+
+
+      .btn-raised {
+        background-color: #cc260c;
+        color: #fff;
+        margin-top: 10px;
+        
+        padding: 0px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: box-shadow 0.3s ease;
+    }
+    .btn-raised:hover {
+        box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+    }
+  
+}
+
+  .track_section form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .track_section form input {
+    width: 100%;
+  }
+
+  .track_section form button {
+    padding: 10px 60px;
+    margin-top: 10px;
+  }
+
+.layout_padding {
+  padding: 50px 0;
+}
+
+.layout_padding2 {
+  padding: 60px 0;
+}
+
+.layout_padding2-top {
+  padding-top: 60px;
+}
+
+.layout_padding2-bottom {
+  padding-bottom: 60px;
+}
+
+.layout_padding-top {
+  padding-top: 90px;
+}
+
+.layout_padding-bottom {
+  padding-bottom: 90px;
+}
+
+@media screen and (max-width: 768px) {
+  .service_section .box {
+
+    margin-left: 0px; /* Reduce margin for small screens */
+    margin-right: 0px;
+    padding: 5px; /* Add some padding for better spacing */
+  }
+
+  .service_section .box .img-box {
+    width: 100px; /* Reduce image size on smaller screens */
+    min-width: 120px;
+    height: 120px;
+    align-items: center;
+  }
+
+  .service_section .box .img-box img {
+    height: 120px;
+    width: 120px;
+  }
+
+  .service_section .box .detail-box h5 {
+    font-size: 15px;
+   
+  }
+
+  .service_section .box .detail-box a {
+    font-size: 16px; 
+    margin-left: 0px;
+    display: block;
+    margin-right: 0px;
+  }
+  .service_section .box .detail-box{
+    font-size: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: block;
+  }
+
+  .service_section .btn-box {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .service_section .btn-box a {
+    padding: 8px 30px; /* Adjust button size */
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .service_section .box {
+    flex-direction: column;
+    text-align: justify; 
+    align-content: center;
+    
+  
+    margin-left: 0px; /* Removes any default margin */
+    margin-right: 0px;
+    padding: 2px; /* Adds spacing inside the section */
+    text-align: center; /* Centers the text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .service_section {
+    margin: 2px; 
+    padding: 0px; /* Adds spacing inside the section */
+    text-align: center; /* Centers the text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+  .service_section .box .img-box {
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+  }
+
+  .service_section .box .img-box img {
+    height: 100px;
+    width: 100px;
+  }
+
+ 
+
+  .service_section .box .detail-box a {
+    font-size: 20px;
+    margin: 2px;
+  }
+
+  .service_section .btn-box a {
+    padding: 6px 20px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .why_section .box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .why_section .box .img-box {
+    margin: 0 auto 20px auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .why_section .box {
+    flex-direction: column;
+    text-align: justify;
+    align-content: center;
+    align-items: center;
+  }
+
+  .why_section .box .img-box {
+    width: 100px;  /* Set to 100px */
+    height: 100px; /* Set to 100px */
+    min-width: 100px;
+    min-height: 100px;
+    margin: 0 auto 15px auto;
+  }
+
+  .why_section .box .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .why_section .box h5 {
+    font-size: 15px;
+  }
+
+  .why_section .box p {
+    font-size: 15px;
+  }
+
+  .why_section .btn-box a {
+    padding: 8px 30px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .why_section .box h5 {
+    font-size: 25px;
+  }
+
+  .why_section .box p {
+    font-size: 15px;
+  }
+
+  .why_section .btn-box a {
+    padding: 6px 20px;
+    font-size: 15px;
+  }
+}
+
+/* Prevent horizontal scrolling */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y:scroll
+  width: 100%;}
+ 
+
+/* Ensure images and iframes are responsive to the screen size */
+img, iframe {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;/*or 'cover' based on your need*/
+}
+
+/* Fix any elements that might be pushing the width */
+.container, .wrapper, .content {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* Adjust padding/margins if needed */
+@media (max-width: 768px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+}
+@media (max-width: 768px) { /* Targets screens below 768px (tablets & mobiles) */
+  .slider_section .detail-box h1 {
+      background: rgba(255, 255, 255, 0.8); /* White background with slight transparency */
+      display: inline-block; /* Ensures the background wraps around text */
+      padding: 5px 10px; /* Adds spacing around text */
+      border-radius: 5px; /* Softens edges */
+  }
+}
+.footer_section p {
+  color: #e0dddc;
+  padding: 5px 0;
+  margin: 0;
+  font-size: 13px;
+  text-align:left;
+  font-weight: normal;
+
+}
+
+.footer_section p a {
+  color: #e6dedc;
+  text-align: right;
+  font-size: 13px;
+  font-style: normal;
+}
+
+
+
+
