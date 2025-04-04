@@ -393,7 +393,7 @@
   .service_section {
     margin: 2px; 
     padding: 0px; /* Adds spacing inside the section */
-    text-align: center; /* Centers the text */
+    text-align: justify; /* Centers the text */
     display: flex;
     flex-direction: column;
     align-items: center;
