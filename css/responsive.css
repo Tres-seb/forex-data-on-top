@@ -6,6 +6,54 @@
   .hero_area {
     min-height: auto;
   }
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .hero_area {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+  }
+}
+
+/* Small devices (phones landscape, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .hero_area {
+    width: 100%;
+    padding: 0px;
+  }
+}
+
+/* Medium devices (tablets, iPad portrait, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .hero_area {
+    width: 100%;
+    padding: 0px;
+  }
+}
+
+/* iPad Mini Landscape and other tablets */
+@media (min-width: 992px) and (max-width: 1024px) {
+  .hero_area {
+    width: 100%;
+    padding: 0px;
+  }
+}
+
+/* Asus Zenbook Fold, small laptops */
+@media (min-width: 1025px) and (max-width: 1300px) {
+  .hero_area {
+    width: 100%;
+    padding: 0px;
+  }
+}
+
+/* Standard Desktops and above */
+@media (min-width: 1301px) {
+  .hero_area {
+    width: 100%;
+    padding: 0px;
+  }
+}
 
   .hero_area .hero_bg_box {
     display: flex;
@@ -18,7 +66,7 @@
 
   .custom_nav-container .navbar-nav .nav-item .nav-link {
     padding: 0px 0px;
-    margin: 2px 0;
+    margin: 0px 0;
   }
 }
 
@@ -31,7 +79,7 @@
   
 }
 .about_section {
-  background-color: #ffffff;
+  background-color:white;
   color: #0c0b0b;
   position: relative;
   width: 100%;
@@ -118,6 +166,26 @@
     margin-right: 10px;
   }
 
+  /* iPad Mini Portrait & Landscape */
+@media screen and (max-width: 1024px) and (min-width: 600px) {
+  .about_section {
+    width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 1rem; /* Adjust as needed */
+  }
+}
+
+/* Asus Zenbook Fold and similar large foldables */
+@media screen and (min-width: 1025px) and (max-width: 1400px) {
+  .about_section {
+    width: 80%;
+    padding: 30px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+  }
+}
+
   .about_section .detail-box p {
     padding: 10px 10px; /* Ensures proper text spacing */
     margin-left: 10px;
@@ -139,7 +207,7 @@
 
 
   .about_section .detail-box h3 {
-    font-size: 22px;  
+    font-size: 20px;  
   }
 
   .about_section .kuwait,
@@ -427,7 +495,7 @@
 @media (max-width: 1024px) {
   .why_section .box {
     flex-direction: column;
-    text-align: center;
+    text-align: justify;
   }
 
   .why_section .box .img-box {
@@ -498,8 +566,8 @@ html, body {
 /* Ensure images and iframes are responsive to the screen size */
 img, iframe {
   max-width: 100%;
-  height: auto;
-  object-fit: contain;/*or 'cover' based on your need*/
+  height: 100%;
+  object-fit: cover;/*or 'cover' based on your need*/
 }
 
 /* Fix any elements that might be pushing the width */
@@ -528,8 +596,10 @@ img, iframe {
   padding: 5px 0;
   margin: 0;
   font-size: 13px;
-  text-align:left;
+  
   font-weight: normal;
+  text-align:justify;
+  justify-content: center;
 
 }
 
@@ -540,6 +610,146 @@ img, iframe {
   font-style: normal;
 }
 
+@media screen and (min-width: 1600px) {
+  /* General Container */
+.body{
+font-size: 20px;}
+  .why_section .box h5 {/*only applicable for above 24 inches screen*/
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #d12a13;
+    font-style: normal;}
+    .slider_section .detail-box h1 {
+      font-size: 50px;
+      font-style: normal;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      color: #c41a0e;
+      width: 100%;
+      display: inline-block;
+      margin: 0 0.5rem;
+      animation: bounce;
+      animation-duration: 2s;}
+      .info_section {
+       
+        font-size: 20px;}
+         /* Default icon size */
+.info_section .whatsapp-icon {
+  width: 20px;
+  height: 20px;
+  color: green;
+}
+
+/* Make the icon larger on big screens (24 inch ~ 1920px width and above) */
+@media screen and (min-width: 1920px) {
+  .info_section .whatsapp-icon {
+    width: 48px;
+    height: 48px;
+  }
+}
+      }
+  .container, .section, .main-content {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .info_section .info_col {
+    margin-bottom: 5px;
+    margin-left: 40px;
+    margin-right: 600px;}
+  
 
 
+  /* Layout Flex for Sections */
+  .flex-section, .about-section, .home-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
 
+  /* Text Adjustments */
+   h2,  h4, h6, p {
+    font-size: 20px;
+    
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+ 
+  
+  
+
+  /* Image Scaling */
+  img {
+    max-width: 100%;
+    
+  }
+
+  /* Buttons */
+  .slider_section .detail-box .btn-box {
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 10px;}
+
+  /* Fix alignment issues */
+  .about-section img, .home-section img {
+    flex: 1;
+    margin-right: 30px;
+  }
+
+  .about-text, .home-text {
+    flex: 2;
+  }
+
+  /* Sidebar, if any */
+  .sidebar {
+    width: 25%;
+  }
+
+  .content-area {
+    width: 100%;
+  }
+  .service_section .box .detail-box h5 {
+    font-size: 20px;
+
+  /* Navigation */
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  /* Padding & Margin Consistency */
+  * {
+    box-sizing: border-box;
+  }
+
+  section {
+    padding: 10px 0;
+  }
+
+  /* Make everything nicely spaced */
+  .spaced {
+    margin-bottom: 40px;
+  }
+}
+
+.info_social {
+  display: flex;
+  justify-content: inherit;
+  
+  margin-bottom: 10px;}
+  .info_section .info_col {
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
